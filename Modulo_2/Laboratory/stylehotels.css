@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hotels-header {
+    text-align: center;
+    font-size: 10px;
+    padding: 20px;
+}
+.hotels-item {
+    line-height: 10px;
+    padding: 30px;
+    border-radius: 3px;
+    border: 1px dotted grey;
+    display: flex;
+    justify-content: space-around; 
+    margin-bottom: 8px;
+}
+
+.hotels-name-container{
+   
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 150%;
+    margin-top: 30px;
+    width: 300px;
+}
+.hotels-description {
+    font-size: 12px;
+    width: 300px;
+    line-height: 200%;
+    margin-top: 30px;
+    padding: 10px 10px 10px 10px;
+}
+
+.hotels-tlf{
+    white-space: nowrap;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 30px;
+    width: 100px;
+
+}
+
+.hotels-rating{
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 30px;
+    width: 100px;
+}
+
+.hotels-image {
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 300px;
+
+}
