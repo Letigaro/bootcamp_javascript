@@ -2,15 +2,33 @@ var hotel= {
     name:"",
     location:"",
 };
-hotel.name=prompt("Type the hotel name, please");
+rating={
+    puntuacion:"",
+    stars:"&#9734;",
+    anonymous:"",
+}
+
+checkbox={
+    checked:"checked",
+    nochecked:"",
+}
+
+hotel.name=prompt("Escriba el nombre del hotel, por favor");
 document.getElementById("hotelname").innerHTML="Hotel" + hotel.name;
-hotel.location=prompt("Type the hotel location, please");
+hotel.location=prompt("Escriba la ubicación del hotel, por favor");
 document.getElementById("hotellocation").innerHTML=hotel.location;
 
-var rating=confirm("quieres que su reseña sea anonima?");
-console.log(rating);
-document.getElementById("review").innerHTML=rating;
-document.getSelection("review").innerHTML=rating;
+
+rating.puntuacion=prompt("¿Qué puntuación le da al hotel?");
+var puntuacionfinal=rating.stars.repeat(rating.puntuacion);
+document.getElementById("stars").innerHTML= puntuacionfinal;
+
+
+rating.anonymous=confirm("¿Quiere que su reseña sea anónima?");
+console.log(checkbox.checked);
+document.getElementById("review").attributes=checkbox.checked;
+
+
 
 
 

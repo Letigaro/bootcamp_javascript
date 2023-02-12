@@ -55,3 +55,7 @@ body {
     width: 300px;
 
 }
+
+.stars-outer{
+    content: "\f006\ \f006\ \f006\ \f006\ \f006\"
+}
