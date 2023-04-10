@@ -34,17 +34,17 @@ console.log(booking1.count);
 
 const total1=booking1.count*booking1.price;
 const total2=booking2.count*booking2.price;
-const reservasnum;
+const reserva=0;
 
 if (total1 > 500){
     const total1= (total1)*0.8;
-    reservasnum++;
+    reserva++;
 }
 if (total2 > 500){
     const total2= (total2)*0.8;
-    reservasnum++;
+    reserva++;
 } 
-console.log("Número de reservas con descuento:", reservasnum); 
+console.log("Número de reservas con descuento:", reserva); 
 
 3
 const diferencia=total1-total2;
