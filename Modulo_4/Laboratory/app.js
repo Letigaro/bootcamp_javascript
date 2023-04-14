@@ -39,6 +39,7 @@ function printsumresult(){
     var value2= getValue2();
     if (!value1 || !value2){
         alert("It is not possible to perform the calculation because one of more values are empty. Try again.");
+        document.getElementById("result").innerText="ERROR";   
     }else{
         document.getElementById("result").innerText=sum(value1,value2);
     }
@@ -49,6 +50,8 @@ function printsubtractionresult(){
     var value2= getValue2();
     if (!value1 || !value2){
         alert("It is not possible to perform the calculation because one of more values are empty. Try again.");
+        document.getElementById("result").innerText="ERROR";   
+
     }else{
         document.getElementById("result").innerText=substraction(value1,value2);   
     }
@@ -58,6 +61,8 @@ function printsplitresult(){
     var value2= getValue2();
     if (!value1 || !value2){
         alert("It is not possible to perform the calculation because one of more values are empty. Try again.");
+        document.getElementById("result").innerText="ERROR";   
+
     }else{
         document.getElementById("result").innerText=split(value1,value2);
     }
@@ -67,6 +72,8 @@ function printmultiplicationresult(){
     var value2= getValue2();
     if (!value1 || !value2){
         alert("It is not possible to perform the calculation because one of more values are empty. Try again.");
+        document.getElementById("result").innerText="ERROR";   
+
     }else{
         document.getElementById("result").innerText=multiplication(value1,value2);
     }
