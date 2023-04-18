@@ -24,14 +24,12 @@ function multiplication (a,b){
 // Funciones obtener valores
 
 function getValue1(){
-
     return document.getElementById("input-firstnumber").value;
+}
 
-    }
-
-    function getValue2(){
-        return document.getElementById("input-secondnumber").value;
-    }
+function getValue2(){
+    return document.getElementById("input-secondnumber").value;
+}
 // Funciones printar valores
 
 function printsumresult(){
