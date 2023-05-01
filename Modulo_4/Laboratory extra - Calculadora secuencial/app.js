@@ -40,13 +40,6 @@ function operatorMultiplication(){
     var result =multiplication(parseInt(document.getElementById("result").innerHTML),getValue());
     document.getElementById("result").innerHTML=result;
 }
-// Funcion para printar resultado final. Como hacer para que al final cuando le des a igual tenga en cuenta el ultimo value. 
-// Porque yo estoy printando ya el resultado todo el rato
-function equal(){
-   document.getElementById("result").innerHTML;
-}
-// Evento para guardar el valor al escribir en el input
-// document.getElementById("input-number").addEventListener("change",()=> getValue());
 
 // Evento click en operadores
 document.getElementById("sum").addEventListener("click",()=> operatorSum());
