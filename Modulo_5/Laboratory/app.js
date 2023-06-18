@@ -135,7 +135,7 @@ function printarporpantallaItems(array, number){
     document.getElementById("item-price"+number).innerHTML= "Price:" + array[number].price + "€" + "<br>";
     document.getElementById("item-count"+number).innerHTML= "Count:" + array[number].count + "<br>";
     if (array[number].premium == true){
-        document.getElementById("item-premium"+number).innerHTML= "Premium:" + "    &#10003;    "+ "<br>";
+        document.getElementById("item-premium"+number).innerHTML= "Premium:" + "&#10003;"+ "<br>";
     }
     else{
         document.getElementById("item-premium"+number).innerHTML= "Premium:" + "&#10007;"+ "<br>";
