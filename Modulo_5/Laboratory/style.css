@@ -1,0 +1,9 @@
+.item-number{
+   
+    text-transform: uppercase;
+    font-weight: bold;
+    vertical-align: middle;
+    line-height: 150%;
+    margin-top: 30px;
+    width: 300px;
+}
